@@ -13,6 +13,8 @@
 		E1B72C8C1F4FBA4A00FD6B02 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1B72C8A1F4FBA4A00FD6B02 /* Main.storyboard */; };
 		E1B72C971F4FBA4A00FD6B02 /* IconMakerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B72C961F4FBA4A00FD6B02 /* IconMakerTests.swift */; };
 		E1B72CA21F4FBA4A00FD6B02 /* IconMakerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B72CA11F4FBA4A00FD6B02 /* IconMakerUITests.swift */; };
+		E1B72CB01F4FBD7100FD6B02 /* DestinationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B72CAF1F4FBD7100FD6B02 /* DestinationView.swift */; };
+		E1B72CB21F4FC3E400FD6B02 /* NSImage+sizing.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B72CB11F4FC3E400FD6B02 /* NSImage+sizing.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,8 @@
 		E1B72C9D1F4FBA4A00FD6B02 /* IconMakerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IconMakerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1B72CA11F4FBA4A00FD6B02 /* IconMakerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconMakerUITests.swift; sourceTree = "<group>"; };
 		E1B72CA31F4FBA4A00FD6B02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1B72CAF1F4FBD7100FD6B02 /* DestinationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DestinationView.swift; sourceTree = "<group>"; };
+		E1B72CB11F4FC3E400FD6B02 /* NSImage+sizing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSImage+sizing.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +101,10 @@
 			children = (
 				E1B72C841F4FBA4A00FD6B02 /* AppDelegate.swift */,
 				E1B72C861F4FBA4A00FD6B02 /* ViewController.swift */,
+				E1B72CAF1F4FBD7100FD6B02 /* DestinationView.swift */,
 				E1B72C881F4FBA4A00FD6B02 /* Assets.xcassets */,
 				E1B72C8A1F4FBA4A00FD6B02 /* Main.storyboard */,
+				E1B72CB11F4FC3E400FD6B02 /* NSImage+sizing.swift */,
 				E1B72C8D1F4FBA4A00FD6B02 /* Info.plist */,
 			);
 			path = IconMaker;
@@ -258,7 +264,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1B72CB01F4FBD7100FD6B02 /* DestinationView.swift in Sources */,
 				E1B72C871F4FBA4A00FD6B02 /* ViewController.swift in Sources */,
+				E1B72CB21F4FC3E400FD6B02 /* NSImage+sizing.swift in Sources */,
 				E1B72C851F4FBA4A00FD6B02 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
