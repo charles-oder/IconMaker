@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E1B72C851F4FBA4A00FD6B02 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B72C841F4FBA4A00FD6B02 /* AppDelegate.swift */; };
+		E1B72C871F4FBA4A00FD6B02 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B72C861F4FBA4A00FD6B02 /* ViewController.swift */; };
+		E1B72C891F4FBA4A00FD6B02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1B72C881F4FBA4A00FD6B02 /* Assets.xcassets */; };
+		E1B72C8C1F4FBA4A00FD6B02 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1B72C8A1F4FBA4A00FD6B02 /* Main.storyboard */; };
+		E1B72C971F4FBA4A00FD6B02 /* IconMakerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B72C961F4FBA4A00FD6B02 /* IconMakerTests.swift */; };
+		E1B72CA21F4FBA4A00FD6B02 /* IconMakerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B72CA11F4FBA4A00FD6B02 /* IconMakerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E1B72C931F4FBA4A00FD6B02 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E1B72C791F4FBA4A00FD6B02 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E1B72C801F4FBA4A00FD6B02;
+			remoteInfo = IconMaker;
+		};
+		E1B72C9E1F4FBA4A00FD6B02 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E1B72C791F4FBA4A00FD6B02 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E1B72C801F4FBA4A00FD6B02;
+			remoteInfo = IconMaker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E1B72C811F4FBA4A00FD6B02 /* IconMaker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IconMaker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1B72C841F4FBA4A00FD6B02 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E1B72C861F4FBA4A00FD6B02 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E1B72C881F4FBA4A00FD6B02 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E1B72C8B1F4FBA4A00FD6B02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E1B72C8D1F4FBA4A00FD6B02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1B72C921F4FBA4A00FD6B02 /* IconMakerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IconMakerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1B72C961F4FBA4A00FD6B02 /* IconMakerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconMakerTests.swift; sourceTree = "<group>"; };
+		E1B72C981F4FBA4A00FD6B02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1B72C9D1F4FBA4A00FD6B02 /* IconMakerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IconMakerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1B72CA11F4FBA4A00FD6B02 /* IconMakerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconMakerUITests.swift; sourceTree = "<group>"; };
+		E1B72CA31F4FBA4A00FD6B02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E1B72C7E1F4FBA4A00FD6B02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1B72C8F1F4FBA4A00FD6B02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1B72C9A1F4FBA4A00FD6B02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E1B72C781F4FBA4A00FD6B02 = {
+			isa = PBXGroup;
+			children = (
+				E1B72C831F4FBA4A00FD6B02 /* IconMaker */,
+				E1B72C951F4FBA4A00FD6B02 /* IconMakerTests */,
+				E1B72CA01F4FBA4A00FD6B02 /* IconMakerUITests */,
+				E1B72C821F4FBA4A00FD6B02 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E1B72C821F4FBA4A00FD6B02 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E1B72C811F4FBA4A00FD6B02 /* IconMaker.app */,
+				E1B72C921F4FBA4A00FD6B02 /* IconMakerTests.xctest */,
+				E1B72C9D1F4FBA4A00FD6B02 /* IconMakerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E1B72C831F4FBA4A00FD6B02 /* IconMaker */ = {
+			isa = PBXGroup;
+			children = (
+				E1B72C841F4FBA4A00FD6B02 /* AppDelegate.swift */,
+				E1B72C861F4FBA4A00FD6B02 /* ViewController.swift */,
+				E1B72C881F4FBA4A00FD6B02 /* Assets.xcassets */,
+				E1B72C8A1F4FBA4A00FD6B02 /* Main.storyboard */,
+				E1B72C8D1F4FBA4A00FD6B02 /* Info.plist */,
+			);
+			path = IconMaker;
+			sourceTree = "<group>";
+		};
+		E1B72C951F4FBA4A00FD6B02 /* IconMakerTests */ = {
+			isa = PBXGroup;
+			children = (
+				E1B72C961F4FBA4A00FD6B02 /* IconMakerTests.swift */,
+				E1B72C981F4FBA4A00FD6B02 /* Info.plist */,
+			);
+			path = IconMakerTests;
+			sourceTree = "<group>";
+		};
+		E1B72CA01F4FBA4A00FD6B02 /* IconMakerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E1B72CA11F4FBA4A00FD6B02 /* IconMakerUITests.swift */,
+				E1B72CA31F4FBA4A00FD6B02 /* Info.plist */,
+			);
+			path = IconMakerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E1B72C801F4FBA4A00FD6B02 /* IconMaker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1B72CA61F4FBA4A00FD6B02 /* Build configuration list for PBXNativeTarget "IconMaker" */;
+			buildPhases = (
+				E1B72C7D1F4FBA4A00FD6B02 /* Sources */,
+				E1B72C7E1F4FBA4A00FD6B02 /* Frameworks */,
+				E1B72C7F1F4FBA4A00FD6B02 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IconMaker;
+			productName = IconMaker;
+			productReference = E1B72C811F4FBA4A00FD6B02 /* IconMaker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E1B72C911F4FBA4A00FD6B02 /* IconMakerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1B72CA91F4FBA4A00FD6B02 /* Build configuration list for PBXNativeTarget "IconMakerTests" */;
+			buildPhases = (
+				E1B72C8E1F4FBA4A00FD6B02 /* Sources */,
+				E1B72C8F1F4FBA4A00FD6B02 /* Frameworks */,
+				E1B72C901F4FBA4A00FD6B02 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E1B72C941F4FBA4A00FD6B02 /* PBXTargetDependency */,
+			);
+			name = IconMakerTests;
+			productName = IconMakerTests;
+			productReference = E1B72C921F4FBA4A00FD6B02 /* IconMakerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E1B72C9C1F4FBA4A00FD6B02 /* IconMakerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1B72CAC1F4FBA4A00FD6B02 /* Build configuration list for PBXNativeTarget "IconMakerUITests" */;
+			buildPhases = (
+				E1B72C991F4FBA4A00FD6B02 /* Sources */,
+				E1B72C9A1F4FBA4A00FD6B02 /* Frameworks */,
+				E1B72C9B1F4FBA4A00FD6B02 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E1B72C9F1F4FBA4A00FD6B02 /* PBXTargetDependency */,
+			);
+			name = IconMakerUITests;
+			productName = IconMakerUITests;
+			productReference = E1B72C9D1F4FBA4A00FD6B02 /* IconMakerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E1B72C791F4FBA4A00FD6B02 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Charles Oder";
+				TargetAttributes = {
+					E1B72C801F4FBA4A00FD6B02 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 57H6R24MCX;
+						ProvisioningStyle = Automatic;
+					};
+					E1B72C911F4FBA4A00FD6B02 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 57H6R24MCX;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E1B72C801F4FBA4A00FD6B02;
+					};
+					E1B72C9C1F4FBA4A00FD6B02 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 57H6R24MCX;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E1B72C801F4FBA4A00FD6B02;
+					};
+				};
+			};
+			buildConfigurationList = E1B72C7C1F4FBA4A00FD6B02 /* Build configuration list for PBXProject "IconMaker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E1B72C781F4FBA4A00FD6B02;
+			productRefGroup = E1B72C821F4FBA4A00FD6B02 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E1B72C801F4FBA4A00FD6B02 /* IconMaker */,
+				E1B72C911F4FBA4A00FD6B02 /* IconMakerTests */,
+				E1B72C9C1F4FBA4A00FD6B02 /* IconMakerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E1B72C7F1F4FBA4A00FD6B02 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1B72C891F4FBA4A00FD6B02 /* Assets.xcassets in Resources */,
+				E1B72C8C1F4FBA4A00FD6B02 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1B72C901F4FBA4A00FD6B02 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1B72C9B1F4FBA4A00FD6B02 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E1B72C7D1F4FBA4A00FD6B02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1B72C871F4FBA4A00FD6B02 /* ViewController.swift in Sources */,
+				E1B72C851F4FBA4A00FD6B02 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1B72C8E1F4FBA4A00FD6B02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1B72C971F4FBA4A00FD6B02 /* IconMakerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1B72C991F4FBA4A00FD6B02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1B72CA21F4FBA4A00FD6B02 /* IconMakerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E1B72C941F4FBA4A00FD6B02 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E1B72C801F4FBA4A00FD6B02 /* IconMaker */;
+			targetProxy = E1B72C931F4FBA4A00FD6B02 /* PBXContainerItemProxy */;
+		};
+		E1B72C9F1F4FBA4A00FD6B02 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E1B72C801F4FBA4A00FD6B02 /* IconMaker */;
+			targetProxy = E1B72C9E1F4FBA4A00FD6B02 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E1B72C8A1F4FBA4A00FD6B02 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1B72C8B1F4FBA4A00FD6B02 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E1B72CA41F4FBA4A00FD6B02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E1B72CA51F4FBA4A00FD6B02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		E1B72CA71F4FBA4A00FD6B02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 57H6R24MCX;
+				INFOPLIST_FILE = IconMaker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = us.oder.IconMaker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		E1B72CA81F4FBA4A00FD6B02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 57H6R24MCX;
+				INFOPLIST_FILE = IconMaker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = us.oder.IconMaker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		E1B72CAA1F4FBA4A00FD6B02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 57H6R24MCX;
+				INFOPLIST_FILE = IconMakerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = us.oder.IconMakerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IconMaker.app/Contents/MacOS/IconMaker";
+			};
+			name = Debug;
+		};
+		E1B72CAB1F4FBA4A00FD6B02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 57H6R24MCX;
+				INFOPLIST_FILE = IconMakerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = us.oder.IconMakerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IconMaker.app/Contents/MacOS/IconMaker";
+			};
+			name = Release;
+		};
+		E1B72CAD1F4FBA4A00FD6B02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 57H6R24MCX;
+				INFOPLIST_FILE = IconMakerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = us.oder.IconMakerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = IconMaker;
+			};
+			name = Debug;
+		};
+		E1B72CAE1F4FBA4A00FD6B02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 57H6R24MCX;
+				INFOPLIST_FILE = IconMakerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = us.oder.IconMakerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = IconMaker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E1B72C7C1F4FBA4A00FD6B02 /* Build configuration list for PBXProject "IconMaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1B72CA41F4FBA4A00FD6B02 /* Debug */,
+				E1B72CA51F4FBA4A00FD6B02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1B72CA61F4FBA4A00FD6B02 /* Build configuration list for PBXNativeTarget "IconMaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1B72CA71F4FBA4A00FD6B02 /* Debug */,
+				E1B72CA81F4FBA4A00FD6B02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E1B72CA91F4FBA4A00FD6B02 /* Build configuration list for PBXNativeTarget "IconMakerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1B72CAA1F4FBA4A00FD6B02 /* Debug */,
+				E1B72CAB1F4FBA4A00FD6B02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E1B72CAC1F4FBA4A00FD6B02 /* Build configuration list for PBXNativeTarget "IconMakerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1B72CAD1F4FBA4A00FD6B02 /* Debug */,
+				E1B72CAE1F4FBA4A00FD6B02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E1B72C791F4FBA4A00FD6B02 /* Project object */;
+}
